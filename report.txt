@@ -1,0 +1,103 @@
+investigation:
+  travel_variant: direction forward
+  experiments:
+  - experiment:
+      number:1
+      input_data:
+        buffer_size: 1Mb
+      results:
+        duration: 491 ms
+  - experiment:
+      number: 2
+      input_data:
+        buffer_size: 2Mb
+      results:
+        duration:  975 ms
+  - experiment:
+       number: 3
+       input_data:
+        buffer_size: 4Mb
+       results:
+        duration:  1954 ms
+  - experiment:
+        number: 4
+        input_data:
+         buffer_size: 8Mb
+        results:
+          duration:  3870 ms
+  - experiment:
+        number: 5
+        input_data:
+         buffer_size: 12Mb
+        results:
+          duration:  5814 ms
+
+
+ investigation:
+   travel_variant: direction revers
+   experiments:
+  - experiment:
+    number:1
+    input_data:
+    buffer_size: 1Mb
+       results:
+      duration: 373 ms
+  - experiment:
+    number: 2
+    input_data:
+    buffer_size: 2Mb
+       results:
+      duration:  753 ms
+  - experiment:
+    number: 3
+    input_data:
+    buffer_size: 4Mb
+       results:
+      duration:  1496 ms
+  - experiment:
+    number: 4
+    input_data:
+    buffer_size: 8Mb
+       results:
+      duration:  2979 ms
+  - experiment:
+    number: 5
+    input_data:
+    buffer_size: 12Mb
+       results:
+      duration:  4471 ms
+
+
+investigation:
+ travel_variant: random
+experiments:
+- experiment:
+  number:1
+  input_data:
+  buffer_size: 1Mb
+     results:
+    duration: 1633 ms
+- experiment:
+  number: 2
+  input_data:
+  buffer_size: 2Mb
+     results:
+    duration:  3115 ms
+- experiment:
+  number: 3
+  input_data:
+  buffer_size: 4Mb
+     results:
+    duration:  7124 ms
+- experiment:
+  number: 4
+  input_data:
+  buffer_size: 8Mb
+      results:
+     duration:  14416 ms
+- experiment:
+  number: 5
+  input_data:
+  buffer_size: 12Mb
+     results:
+    duration:  21459 ms
