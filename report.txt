@@ -1,103 +1,103 @@
 investigation:
-  travel_variant: direction forward
+  travel_variant: direction "forward"
   experiments:
   - experiment:
       number:1
       input_data:
         buffer_size: 1Mb
       results:
-        duration: 491 ms
+        duration: 736 ms
   - experiment:
       number: 2
       input_data:
         buffer_size: 2Mb
       results:
-        duration:  975 ms
+        duration:  1382 ms
   - experiment:
        number: 3
        input_data:
         buffer_size: 4Mb
        results:
-        duration:  1954 ms
+        duration:  2745 ms
   - experiment:
         number: 4
         input_data:
          buffer_size: 8Mb
         results:
-          duration:  3870 ms
+          duration:  5519 ms
   - experiment:
         number: 5
         input_data:
          buffer_size: 12Mb
         results:
-          duration:  5814 ms
+          duration:  8232 ms
 
 
  investigation:
-   travel_variant: direction revers
+   travel_variant: direction "reverse"
    experiments:
   - experiment:
     number:1
     input_data:
     buffer_size: 1Mb
        results:
-      duration: 373 ms
+      duration: 649 ms
   - experiment:
     number: 2
     input_data:
     buffer_size: 2Mb
        results:
-      duration:  753 ms
+      duration:  1216 ms
   - experiment:
     number: 3
     input_data:
     buffer_size: 4Mb
        results:
-      duration:  1496 ms
+      duration:  2335 ms
   - experiment:
     number: 4
     input_data:
     buffer_size: 8Mb
        results:
-      duration:  2979 ms
+      duration:  4823 ms
   - experiment:
     number: 5
     input_data:
     buffer_size: 12Mb
        results:
-      duration:  4471 ms
+      duration:  7196 ms
 
 
 investigation:
- travel_variant: random
+ travel_variant: direction "random"
 experiments:
 - experiment:
   number:1
   input_data:
   buffer_size: 1Mb
      results:
-    duration: 1633 ms
+    duration: 27968
 - experiment:
   number: 2
   input_data:
   buffer_size: 2Mb
      results:
-    duration:  3115 ms
+    duration:  45787
 - experiment:
   number: 3
   input_data:
   buffer_size: 4Mb
      results:
-    duration:  7124 ms
+    duration:  102240
 - experiment:
   number: 4
   input_data:
   buffer_size: 8Mb
       results:
-     duration:  14416 ms
+     duration:  190301
 - experiment:
   number: 5
   input_data:
   buffer_size: 12Mb
      results:
-    duration:  21459 ms
+    duration:  299708 ms
